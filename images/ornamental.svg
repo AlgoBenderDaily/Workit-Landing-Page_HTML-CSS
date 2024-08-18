@@ -28,7 +28,7 @@
      inkscape:cy="-42.900855"
      inkscape:window-width="1278"
      inkscape:window-height="1360"
-     inkscape:window-x="1273"
+     inkscape:window-x="1266"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1" />
@@ -36,5 +36,5 @@
      d="M0 0V72H1440V0C1440 0 1082.96 68 722 68C361.039 68 0 0 0 0Z"
      fill="#FCF8FF"
      id="path1"
-     style="fill:#fdfaff;fill-opacity:1" />
+     style="fill:#fdfaff;fill-opacity:1;stroke:none" />
 </svg>
