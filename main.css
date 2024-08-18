@@ -460,14 +460,6 @@ h3 {
   .headshot__container {
     width: 280px;
     height: 280px;
-    background-color: var(--GREEN);
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: bottom;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin: 0 auto;
   }
 
   .headshot__container img {
@@ -482,7 +474,6 @@ h3 {
     background-color: var(--PURPLE-900);
     width: 335px;
     height: 393px;
-    z-index: 1;
     justify-content: center;
     align-items: center;
   }
