@@ -354,6 +354,10 @@ h3 {
 /* || MEDIA QUERIES */
 /* Smartphone breakpoint */
 @media screen and (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+
   /*||HEADER */
   .header {
     height: 481px;
@@ -371,7 +375,7 @@ h3 {
 
   .hero__title {
     font-weight: var(--FW-SEMI-BOLD);
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--WHITE);
   }
 
@@ -426,6 +430,104 @@ h3 {
     display: flex;
     flex-flow: column;
     gap: 32px;
+  }
+
+  /* || MAIN-CTA */
+  .article__cta {
+    background-color: var(--WHITE);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 112px;
+  }
+
+  .card-wrapper {
+    position: relative;
+    width: 1120px;
+    height: 579px;
+    padding: 112px 160px 0px 160px;
+  }
+
+  .card {
+    position: absolute;
+  }
+
+  .card-bottom {
+    z-index: 1;
+  }
+
+  .card-top {
+    z-index: 2;
+    top: 168px;
+    left: 390px;
+  }
+
+  .headshot__container {
+    width: 477px;
+    height: 477px;
+    background-color: var(--GREEN);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+  }
+
+  .headshot__container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .section__cta-content {
+    padding: 64px;
+    background-color: var(--PURPLE-900);
+    width: 730px;
+    height: 411px;
+    z-index: 1;
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+    position: relative;
+  }
+
+  .section__cta-content__h2 {
+    font: var(--TEXT-PRESET2);
+    color: var(--WHITE);
+  }
+
+  .section__cta-content p {
+    font: var(--TEXT-PRESET4);
+    color: var(--WHITE);
+  }
+
+  .button__link {
+    text-decoration: none;
+  }
+
+  .section__cta__button {
+    width: 207px;
+    height: 56px;
+    background-color: var(--GREEN);
+    display: grid;
+    place-items: center;
+    color: var(--PURPLE-900);
+    font: var(--TEXT-PRESET5);
+  }
+
+  .section__cta__button:hover,
+  .section__cta__button:focus-visible {
+    background-color: hwb(0 100% 0% / 0);
+    border: 2px solid var(--GREEN);
+    color: var(--GREEN);
+  }
+
+  .section__figure__cta {
+    position: absolute;
+    top: 293px;
+    left: 470px;
   }
 }
 
